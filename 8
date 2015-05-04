@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+green = '\033[0;32m'
+print(green + ''
+Welcome to the magic 8 ball.
+enter your questions below, if you please.
+''')
+
+answers = [
+    'yes.',
+    'no',
+    'maybe.',
+    'if I told you id have to kill you.',
+    'dont count on it',
+    'god forbid',
+    'tasty',
+    'pls no',
+    'brainpower is -10',
+    'combe back tomorrow',
+    'it depends how many potatos do you have',
+    'no bob i cant',
+    'on an unrelated topic have you ever eaten a beaver?',
+    'your mom.',
+    'over 9000.',
+    'ask siri.',
+    'ask that hideous creature behind you.',
+    'yer a wizzard harry.',
+    'leave me alone.',
+    'get of me lawn.',
+    'mah spleen.',
+    'potato times two.',
+    'solve for x x=2+2x234-3+x',
+    'go away im hybernating.',
+    'u smell bad.',
+    'you will buy new pants.'
+]
+
+
+import random
+while True:
+    question = input ('> ')
+    answer = random.choice(answers)
+    print(green + answer)

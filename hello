@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+red='\033[0;31m'
+print(red + 'helloworld')
+
